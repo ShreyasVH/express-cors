@@ -7,7 +7,7 @@ const routes = require('./routes')
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-const allowedOrigins = ['https://http-client.react.com', 'https://http-client.vue.com', 'https://http-client.angular.com'];
+const allowedOrigins = ['https://http-client.react.com', 'https://http-client.vue.com', 'https://http-client.angular.com', 'https://http-client.sveltekit.com', 'https://http-client.solid.com'];
 
 const corsOptions = {
   origin: function (origin, callback) {
